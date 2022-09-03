@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-*{
+* {
 
     margin: 0;
     padding: 0;
@@ -11,14 +11,14 @@
 
 }
 
-:root{
+:root {
 
     --bg-primario: #252525;
-    --bg-gradiente: linear-gradient(90deg, rgba(255,161,0,1) 0%, rgba(251,16,61,1) 100%);
+    --bg-gradiente: linear-gradient(90deg, rgba(255, 161, 0, 1) 0%, rgba(251, 16, 61, 1) 100%);
     --pizza-org: #FFA400;
     --pizza-red: #FC2933;
     --white: #fff;
-    
+
 
     /* 
     
@@ -33,7 +33,7 @@
 
 }
 
-h1{
+h1 {
 
     font-size: 66px;
     font-family: Montserrat;
@@ -41,7 +41,7 @@ h1{
     color: var(--white);
 }
 
-h2{
+h2 {
 
     font-size: 22px;
     font-family: Montserrat;
@@ -49,7 +49,7 @@ h2{
     color: var(--white);
 }
 
-h3{
+h3 {
 
     font-size: 15px;
     font-family: Montserrat;
@@ -57,18 +57,18 @@ h3{
     color: var(--white);
 }
 
-a{
+a {
     color: var(--white);
 }
 
-body{
+body {
 
     background: var(--bg-primario);
     font-family: Montserrat;
     color: var(--white);
 }
 
-header{
+header {
 
     display: flex;
     justify-content: space-between;
@@ -77,21 +77,21 @@ header{
 }
 
 
-header nav ul{
+header nav ul {
 
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-header nav ul li a{
+header nav ul li a {
 
     font-size: 12px;
     color: var(--white);
     font-weight: 400;
 }
 
-header img{
+header img {
 
     width: 79px;
     height: 79px;
@@ -99,7 +99,7 @@ header img{
 
 /* MAIN */
 
-main{
+main {
 
     display: flex;
     flex-direction: column;
@@ -108,45 +108,46 @@ main{
 
 /* HERO */
 
-#hero{
+#hero {
 
     display: flex;
     justify-content: center;
     max-width: 1230px;
-    
-    
+
+
 }
 
-#hero .hero-txt{
+#hero .hero-txt {
 
     display: flex;
     flex-direction: column;
     gap: 25px;
 
 }
-#hero .hero-txt h1{
+
+#hero .hero-txt h1 {
 
     width: 600px;
 }
 
-#hero .hero-txt p{
+#hero .hero-txt p {
 
     font-size: 21px;
     font-weight: 400;
 }
 
-#hero .hero-txt a{
+#hero .hero-txt a {
     width: 122px;
     font-size: 14px;
     font-weight: 700;
-    background: rgb(255,161,0);
-    background: linear-gradient(90deg, rgba(255,161,0,1) 0%, rgba(251,16,61,1) 100%);
+    background: rgb(255, 161, 0);
+    background: linear-gradient(90deg, rgba(255, 161, 0, 1) 0%, rgba(251, 16, 61, 1) 100%);
     border-radius: 10px;
     padding: 10px 20px;
     text-align: center;
 }
 
-#hero .hero-img{
+#hero .hero-img {
 
     display: flex;
 }
@@ -173,7 +174,7 @@ main{
 
 /* RECOMENDACIONES */
 
-#recomendaciones{
+#recomendaciones {
 
     margin-top: 100px;
     display: flex;
@@ -181,26 +182,26 @@ main{
     gap: 30px;
     justify-content: center;
     max-width: 1230px;
-    
+
 }
 
-#recomendaciones .section-title{
+#recomendaciones .section-title {
 
     text-align: left;
-    
+
 }
 
 
-#recomendaciones .recomendaciones-cards{
+#recomendaciones .recomendaciones-cards {
 
     display: flex;
     justify-content: center;
     gap: 38px;
-    
+
 
 }
 
-#recomendaciones .recomendaciones-cards .recomendacion-card{
+#recomendaciones .recomendaciones-cards .recomendacion-card {
 
     background: var(--bg-primario);
     box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
@@ -211,14 +212,14 @@ main{
     align-items: center;
 }
 
-#recomendaciones .recomendaciones-cards .recomendacion-card .card-info{
+#recomendaciones .recomendaciones-cards .recomendacion-card .card-info {
 
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-#recomendaciones .recomendaciones-cards .recomendacion-card a{
+#recomendaciones .recomendaciones-cards .recomendacion-card a {
 
     background: var(--bg-gradiente);
     padding: 5px 10px;
@@ -227,46 +228,47 @@ main{
 
 }
 
-#recomendaciones .recomendaciones-cards .recomendacion-card p{
+#recomendaciones .recomendaciones-cards .recomendacion-card p {
 
     font-size: 14px;
     font-weight: 400;
     opacity: 0.3;
 }
-#recomendaciones .recomendaciones-cards .recomendacion-card span{
 
-background: var(--bg-gradiente);
-background-clip: text;
--webkit-background-clip: text;
-color: transparent;
-font-size: 19px;
-font-weight: 700;
+#recomendaciones .recomendaciones-cards .recomendacion-card span {
+
+    background: var(--bg-gradiente);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 19px;
+    font-weight: 700;
 
 }
 
 /* CATEGORIAS */
 
-#categorias{
+#categorias {
 
     max-width: 1230px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-top: 70px;
-    gap:30px;
-    
+    gap: 30px;
+
 }
 
-#categorias .categorias-cards{
+#categorias .categorias-cards {
 
     display: flex;
     flex-direction: row;
     gap: 36px;
-    
-   
+
+
 }
 
-#categorias .categoria{
+#categorias .categoria {
 
     background: #252525;
     box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
@@ -276,14 +278,113 @@ font-weight: 700;
     display: flex;
     flex-direction: column;
     align-items: center;
-   gap: 10px;
+    gap: 10px;
 }
 
-.little-line{
+.little-line {
 
     width: 24px;
     height: 4px;
     background: var(--bg-gradiente);
     border-radius: 5px;
+}
+
+/* LOS MAS POPULARES */
+
+#populares {
+
+    max-width: 1230px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 30px;
+}
+
+#populares .popular-cards {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+#populares .popular-cards .popular-card {
+
+    background: var(--bg-primario);
+    box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+    border-radius: 15px;
+    padding: 25px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#populares .popular-cards .popular-card img {
+
+    border-radius: 16px
+}
+
+#populares .popular-cards .popular-card h3 {
+
+    font-weight: 500;
+    font-size: 15px;
+
+}
+
+#populares .popular-cards .popular-card p {
+
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 0.3;
+
+}
+
+#populares .popular-cards .popular-card .bottom-card{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#populares .popular-cards .popular-card .bottom-card span{
+
+    background: var(--bg-gradiente);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 19px;
+    font-weight: 700;
+
+}
+
+#populares .popular-cards .popular-card .bottom-card a{
+
+    background: var(--bg-gradiente);
+    padding: 5px 10px;
+    border-radius: 10px;
+
+}
+
+/* FOOTER */
+
+footer{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+footer ul{
+
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+}
+
+footer p{
+
+    margin-bottom: 20px;
 }
 
