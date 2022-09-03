@@ -81,14 +81,34 @@ header nav ul {
 
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 25px;
 }
 
 header nav ul li a {
 
-    font-size: 12px;
+    font-size: 15px;
     color: var(--white);
     font-weight: 400;
+    
+}
+
+header nav ul li:first-child{
+
+    margin-right: 30px;
+}
+
+
+
+header nav ul li a i{
+
+    color: var(--pizza-org);
+    font-size: 25px;
+
+}
+
+header nav ul li a i:first-child{
+
+    margin-right: 10px;
 }
 
 header img {
@@ -111,7 +131,7 @@ main {
 #hero {
 
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     max-width: 1230px;
 
 
@@ -122,6 +142,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 25px;
+    width: 1230px;
 
 }
 
@@ -152,7 +173,7 @@ main {
     display: flex;
 }
 
-/*#hero .hero-img .img-pizza-1 {
+#hero .hero-img .img-pizza-1 {
 
     position: absolute;
     width: 265px;
@@ -169,8 +190,8 @@ main {
     height: 392px;
     left: 1172px;
     top: 94px;
-    z-index: 2;
-}*/
+    z-index: 1;
+}
 
 /* RECOMENDACIONES */
 
@@ -188,6 +209,7 @@ main {
 #recomendaciones .section-title {
 
     text-align: left;
+    width: 1230px;
 
 }
 
