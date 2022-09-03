@@ -14,9 +14,11 @@
 :root{
 
     --bg-primario: #252525;
+    --bg-gradiente: linear-gradient(90deg, rgba(255,161,0,1) 0%, rgba(251,16,61,1) 100%);
     --pizza-org: #FFA400;
     --pizza-red: #FC2933;
     --white: #fff;
+    
 
     /* 
     
@@ -59,15 +61,11 @@ a{
     color: var(--white);
 }
 
-p{
-
-    color: var(--white);
-}
-
 body{
 
     background: var(--bg-primario);
     font-family: Montserrat;
+    color: var(--white);
 }
 
 header{
@@ -99,12 +97,22 @@ header img{
     height: 79px;
 }
 
+/* MAIN */
+
+main{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* HERO */
 
 #hero{
 
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    max-width: 1230px;
     
     
 }
@@ -143,13 +151,14 @@ header img{
     display: flex;
 }
 
-#hero .hero-img .img-pizza-1 {
+/*#hero .hero-img .img-pizza-1 {
 
     position: absolute;
     width: 265px;
     height: 265px;
     left: 1046px;
     top: 208px;
+    z-index: 1;
 }
 
 #hero .hero-img .img-pizza-2{
@@ -159,4 +168,122 @@ header img{
     height: 392px;
     left: 1172px;
     top: 94px;
+    z-index: 2;
+}*/
+
+/* RECOMENDACIONES */
+
+#recomendaciones{
+
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    max-width: 1230px;
+    
 }
+
+#recomendaciones .section-title{
+
+    text-align: left;
+    
+}
+
+
+#recomendaciones .recomendaciones-cards{
+
+    display: flex;
+    justify-content: center;
+    gap: 38px;
+    
+
+}
+
+#recomendaciones .recomendaciones-cards .recomendacion-card{
+
+    background: var(--bg-primario);
+    box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+    border-radius: 15px;
+    display: flex;
+    gap: 10px;
+    padding: 20px 15px;
+    align-items: center;
+}
+
+#recomendaciones .recomendaciones-cards .recomendacion-card .card-info{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#recomendaciones .recomendaciones-cards .recomendacion-card a{
+
+    background: var(--bg-gradiente);
+    padding: 5px 10px;
+    border-radius: 10px;
+
+
+}
+
+#recomendaciones .recomendaciones-cards .recomendacion-card p{
+
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.3;
+}
+#recomendaciones .recomendaciones-cards .recomendacion-card span{
+
+background: var(--bg-gradiente);
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+font-size: 19px;
+font-weight: 700;
+
+}
+
+/* CATEGORIAS */
+
+#categorias{
+
+    max-width: 1230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 70px;
+    gap:30px;
+    
+}
+
+#categorias .categorias-cards{
+
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    
+   
+}
+
+#categorias .categoria{
+
+    background: #252525;
+    box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+    border-radius: 15px;
+    width: 150px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   gap: 10px;
+}
+
+.little-line{
+
+    width: 24px;
+    height: 4px;
+    background: var(--bg-gradiente);
+    border-radius: 5px;
+}
+
