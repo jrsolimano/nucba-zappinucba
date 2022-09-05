@@ -72,6 +72,7 @@ header {
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 41px 65px;
     width: 100%;
 }
@@ -89,24 +90,24 @@ header nav ul li a {
     font-size: 15px;
     color: var(--white);
     font-weight: 400;
-    
+
 }
 
-header nav ul li:first-child{
+header nav ul li:first-child {
 
     margin-right: 30px;
 }
 
 
 
-header nav ul li a i{
+header nav ul li a i {
 
     color: var(--pizza-org);
     font-size: 25px;
 
 }
 
-header nav ul li a i:first-child{
+header nav ul li a i:first-child {
 
     margin-right: 10px;
 }
@@ -132,6 +133,7 @@ main {
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
     max-width: 1230px;
 
 
@@ -183,7 +185,7 @@ main {
     z-index: 1;
 }
 
-#hero .hero-img .img-pizza-2{
+#hero .hero-img .img-pizza-2 {
 
     position: absolute;
     width: 392px;
@@ -202,6 +204,7 @@ main {
     flex-direction: column;
     gap: 30px;
     justify-content: center;
+    align-items: center;
     max-width: 1230px;
 
 }
@@ -218,6 +221,7 @@ main {
 
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 38px;
 
 
@@ -361,14 +365,15 @@ main {
 
 }
 
-#populares .popular-cards .popular-card .bottom-card{
+#populares .popular-cards .popular-card .bottom-card {
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
-#populares .popular-cards .popular-card .bottom-card span{
+#populares .popular-cards .popular-card .bottom-card span {
 
     background: var(--bg-gradiente);
     background-clip: text;
@@ -379,7 +384,7 @@ main {
 
 }
 
-#populares .popular-cards .popular-card .bottom-card a{
+#populares .popular-cards .popular-card .bottom-card a {
 
     background: var(--bg-gradiente);
     padding: 5px 10px;
@@ -389,7 +394,7 @@ main {
 
 /* FOOTER */
 
-footer{
+footer {
     margin-top: 100px;
     display: flex;
     flex-direction: column;
@@ -397,16 +402,15 @@ footer{
     gap: 30px;
 }
 
-footer ul{
+footer ul {
 
-        display: flex;
-        flex-direction: row;
-        gap: 20px;
-        align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
 }
 
-footer p{
+footer p {
 
     margin-bottom: 20px;
 }
-
