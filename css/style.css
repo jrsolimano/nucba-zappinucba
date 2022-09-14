@@ -134,7 +134,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1230px;
+    /*max-width: 1230px;*/
 
 
 }
@@ -203,9 +203,9 @@ main {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    justify-content: center;
+    /*justify-content: center;
     align-items: center;
-    max-width: 1230px;
+    max-width: 1230px;*/
 
 }
 
@@ -276,7 +276,7 @@ main {
 
 #categorias {
 
-    max-width: 1230px;
+    /*max-width: 1230px;*/
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -307,6 +307,11 @@ main {
     gap: 10px;
 }
 
+#categorias .categoria:first-child{
+
+    padding-top: 35px;
+}
+
 .little-line {
 
     width: 24px;
@@ -319,7 +324,7 @@ main {
 
 #populares {
 
-    max-width: 1230px;
+    /*max-width: 1230px;*/
     display: flex;
     flex-direction: column;
     margin-top: 100px;
@@ -332,6 +337,7 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 40px;
+    width: 1230px;
 }
 
 #populares .popular-cards .popular-card {

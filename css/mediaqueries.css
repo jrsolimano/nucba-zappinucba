@@ -1,0 +1,151 @@
+/* Estilos para tablests */
+
+@media (max-width:992px) {
+
+    /* HERO */
+
+    #hero .hero-txt {
+
+        width: unset;
+        /*max-width: 992px;*/
+        align-items: center;
+    }
+
+    #hero .hero-txt h1 {
+
+        text-align: center;
+    }
+
+    #hero .hero-img {
+        display: none;
+    }
+
+    /* RECOMENDACIONES */
+
+    #recomendaciones .section-title{
+
+        width: auto;
+    }
+
+    #recomendaciones{
+
+        margin-top: 50px;
+    }
+
+    .section-title h2 {
+
+        text-align: center;
+    }
+
+    #recomendaciones .recomendaciones-cards .recomendacion-card {
+
+        flex-direction: column;
+        width: 250px;
+        text-align: center;
+    }
+
+    #recomendaciones .recomendaciones-cards .recomendacion-card img {
+
+        width: 100px;
+        height: 100px;
+    }
+
+    /* CATEGORIAS */
+
+    #categorias .categorias-cards {
+
+        /*max-width: 992px;*/
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    /* POPULARES */
+
+    #populares .popular-cards{
+
+        justify-content: center;
+        width: unset;
+    }
+}
+
+/* Estilos para celulares */
+
+@media (max-width:540px){
+
+    /* GENERAL */
+
+    h1{
+
+        font-size: 52px;
+    }
+
+    h2{
+
+        font-size: 18px;
+    }
+
+    #recomendaciones .section-title{
+
+        width: unset;
+    }
+
+    /* NAVBAR */
+
+    header{
+
+        flex-direction: column;
+        gap:40px;
+
+    }
+
+    /* HERO */
+
+    #hero{
+
+        max-width: unset;
+    }
+
+    #hero .hero-img{
+
+        display: none;
+    }
+
+    #hero .hero-txt h1{
+
+        width: unset;
+    }
+
+    #hero .hero-txt p{
+
+        font-size: 15px;
+        text-align: center;
+
+    }
+
+    /* RECOMENDACIONES */
+
+    #recomendaciones{
+
+        margin-top: 50px;
+    }
+
+    #recomendaciones .recomendaciones-cards{
+
+        flex-direction: column;
+    }
+
+    /* POPULARES */
+
+    #populares .popular-cards .popular-card p, #populares .popular-cards .popular-card h3{
+
+        text-align: center;
+    }
+
+    #populares .popular-cards .popular-card .bottom-card{
+
+        flex-direction: column;
+        gap: 15px;
+    }
+
+}
