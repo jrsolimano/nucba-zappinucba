@@ -148,4 +148,9 @@
         gap: 15px;
     }
 
+    footer ul{
+
+        flex-direction: column;
+    }
+
 }
